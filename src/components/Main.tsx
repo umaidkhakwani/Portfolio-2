@@ -7,7 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import '../assets/styles/Main.scss';
 import { styled } from '@mui/system'; // or '@mui/material/styles'
-import myPic from '../assets/my-pfp.jpeg';
+import myPic from '../assets/my_pic2.jpg';
 
 const CustomTooltip = styled(Tooltip)(({ theme }) => ({
   [`& .${tooltipClasses.tooltip}`]: {
@@ -27,27 +27,27 @@ function Main() {
           <img src={myPic} alt="Avatar" />
         </div>
         <div className="content">
-          <div className="social_icons">
-            <CustomTooltip title="usamafiaz1104@gmail.com" arrow>
-              <a href="mailto:usamafiaz1104@gmail.com" target="_blank" rel="noreferrer">
+            <div className="social_icons">
+              <CustomTooltip title="umaidkhakwani02@gmail.com" arrow>
+              <a href="mailto:umaidkhakwani02@gmail.com" target="_blank" rel="noreferrer">
                 <EmailIcon />
               </a>
             </CustomTooltip>
-            <CustomTooltip title="https://github.com/Usama-Fiaz" arrow>
-              <a href="https://github.com/Usama-Fiaz?tab=repositories" target="_blank" rel="noreferrer"><GitHubIcon /></a>
+            <CustomTooltip title="https://github.com/umaidkhakwani" arrow>
+              <a href="https://github.com/umaidkhakwani" target="_blank" rel="noreferrer"><GitHubIcon /></a>
             </CustomTooltip>
-            <CustomTooltip title="https://www.linkedin.com/in/muhammad-usama-fiaz-b1a070366/" arrow>
-              <a href="https://www.linkedin.com/in/muhammad-usama-fiaz-b1a070366/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
+            <CustomTooltip title="https://www.linkedin.com/in/umaidkhakwani/" arrow>
+              <a href="https://www.linkedin.com/in/umaidkhakwani/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
             </CustomTooltip>
-            <CustomTooltip title="+49-160-96-512513" arrow>
-              <a href="tel:+4916096512513" target="_blank" rel="noreferrer" style={{ alignItems: 'center' }}>
+            <CustomTooltip title="+49 16096583984" arrow>
+              <a href="tel:+4916096583984" target="_blank" rel="noreferrer" style={{ alignItems: 'center' }}>
                 <LocalPhoneIcon />
               </a>
             </CustomTooltip>
 
           </div>
-          <h1>Usama Fiaz</h1>
-          <p> Software Engineer | Full Stack Developer</p>
+          <h1>Umaid Khan Khakwani</h1>
+          <p> Software Engineer | Full Stack and Automation Developer</p>
           <p style={{ fontSize: "16px" }}>I'm a passionate Full-Stack Software Engineer with 2 years of hands-on experience developing fast, scalable web applications using technologies like React.js, Node.js, REST APIs, and MySQL. Currently pursuing a Master’s in Computer Science, I bring a strong focus on performance, usability, and writing clean, maintainable code. I’ve contributed to both frontend and backend systems, delivered efficient solutions, and thrive in team environments where real-world problems are solved through technology.</p>
         </div>
       </div>

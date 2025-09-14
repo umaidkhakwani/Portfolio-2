@@ -6,28 +6,48 @@ import mock07 from '../assets/images/projects/tradebot.jpeg';
 import mock08 from '../assets/images/projects/Shipping-Logistic.png';
 import mock09 from '../assets/images/projects/mvs.png';
 import mock10 from '../assets/images/projects/SmartFarmAI.png';
+
+import mits from "../assets/images/projects/mits.png" 
+import mits_2 from "../assets/images/projects/mits_2.png" 
+import mits_3 from "../assets/images/projects/mits_3.png" 
+import mits_4 from "../assets/images/projects/mits_4.png" 
+
+import antly from "../assets/images/projects/Antly.png"
+import antly_2 from "../assets/images/projects/antly_2.png"
+
+import aib1 from  "../assets/images/projects/aib_1.1.png"
+import aib1_2 from  "../assets/images/projects/aib_1.2.png"
+import aib1_3 from  "../assets/images/projects/aib_1.3.png"
+import aib1_4 from  "../assets/images/projects/aib_1.4.png"
+
+import aib2 from  "../assets/images/projects/aib_2.1.png"
+import aib2_2 from  "../assets/images/projects/aib_2.2.png"
+import aib2_3 from  "../assets/images/projects/aib_2.3.png"
+import aib2_4 from  "../assets/images/projects/aib_2.4.png"
+
+import veteran from "../assets/images/projects/veteran.png"
 import '../assets/styles/Project.scss';
 import { Chip } from "@mui/material";
 import { GitHub } from "@mui/icons-material";
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 const projectsData = [
-  {
-    title: "SmartFarmAI",
-    image: mock10,
-    github_link: "https://github.com/Usama-Fiaz/SmartFarmAI",
-    live_link: "https://drive.google.com/file/d/1EmOqmzL7BbkFCComJZS_KOKtnM12fogp/view?usp=drive_link",
-    description: "A cutting-edge Farming E-Commerce Platform combining AI-powered visual product search and Gemini AI chatbot assistance. Built with React.js and Django, it features real-time inventory management, secure payments, and location services, revolutionizing agricultural commerce through modern technology.",
-    tech: ["React", "Python", "Django", "TensorFlow", "Material-UI", "Gemini AI"]
-  },
-  {
-    title: "MultiVendor E-Commerce System",
-    image: mock09,
-    github_link: "https://github.com/Usama-Fiaz/MultiVendor-ECommerce-System",
-    live_link: "https://drive.google.com/file/d/1BeOqyb3Z--2y1PNq4tlHKPuwKwfs4QiO/view?usp=drive_link",
-    description: "A multi-vendor e-commerce platform with admin, seller, and customer interfaces. Features include product management, order processing, and secure payment integration.",
-    tech: ["SQL", "Laravel", "Bootstrap", "JQuery"]
-  },
+  // {
+  //   title: "SmartFarmAI",
+  //   image: mock10,
+  //   github_link: "https://github.com/Usama-Fiaz/SmartFarmAI",
+  //   live_link: "https://drive.google.com/file/d/1EmOqmzL7BbkFCComJZS_KOKtnM12fogp/view?usp=drive_link",
+  //   description: "A cutting-edge Farming E-Commerce Platform combining AI-powered visual product search and Gemini AI chatbot assistance. Built with React.js and Django, it features real-time inventory management, secure payments, and location services, revolutionizing agricultural commerce through modern technology.",
+  //   tech: ["React", "Python", "Django", "TensorFlow", "Material-UI", "Gemini AI"]
+  // },
+  // {
+  //   title: "MultiVendor E-Commerce System",
+  //   image: mock09,
+  //   github_link: "https://github.com/Usama-Fiaz/MultiVendor-ECommerce-System",
+  //   live_link: "https://drive.google.com/file/d/1BeOqyb3Z--2y1PNq4tlHKPuwKwfs4QiO/view?usp=drive_link",
+  //   description: "A multi-vendor e-commerce platform with admin, seller, and customer interfaces. Features include product management, order processing, and secure payment integration.",
+  //   tech: ["SQL", "Laravel", "Bootstrap", "JQuery"]
+  // },
   {
     title: "Shipping & Logistics",
     image: mock08,
@@ -36,45 +56,66 @@ const projectsData = [
     description: "A logistics management platform offering quote generation, multi-language support, email notifications, and secure database handling.",
     tech: ["React", "Php", "Material-UI", "MySQL"]
   },
+  // {
+  //   title: "TradeBot (FYP)",
+  //   image: mock07,
+  //   github_link: "https://github.com/Usama-Fiaz/FYP-TradeBot",
+  //   live_link: "https://drive.google.com/file/d/1DXq7jF5JqbEvCWVBkcpkmKn-HJHmL9Os/view?usp=drive_link",
+  //   description: "AI-powered bot for automated financial trading using NLP and ML models to analyze tweets, news, and indicators.",
+  //   tech: ["React", "Redux", "Node.js", "Python", "Bootstrap", "Flask-RESTful"]
+  // },
+  // {
+  //   title: "Brilliant Pro",
+  //   image: mock06,
+  //   github_link: "https://github.com/Usama-Fiaz/BrilliantPro-CMS",
+  //   live_link: "https://drive.google.com/file/d/1iwk1Sbp7uJqn8jpRGnVCGlc8kACsPqbL/view?usp=drive_link",
+  //   description: "An educational platform using MERN stack with real-time dashboards and scalable learning management.",
+  //   tech: ["React", "Node.js", "JavaScript", "Express", "MongoDB", "Material-UI"]
+  // },
+  // {
+  //   title: "Sports Club",
+  //   image: mock05,
+  //   github_link: "https://github.com/Usama-Fiaz/Sports-Club",
+  //   live_link: "https://drive.google.com/file/d/11lHPAuv3JTHwk4GdolXHRJbUxU8PfYXX/view?usp=drive_link",
+  //   description: "A sports club management system featuring member/event management and ecommerce features.",
+  //   tech: ["HTML", "JavaScript", "MySQL", "PHP", "Bootstrap"]
+  // },
   {
-    title: "TradeBot (FYP)",
-    image: mock07,
-    github_link: "https://github.com/Usama-Fiaz/FYP-TradeBot",
-    live_link: "https://drive.google.com/file/d/1DXq7jF5JqbEvCWVBkcpkmKn-HJHmL9Os/view?usp=drive_link",
-    description: "AI-powered bot for automated financial trading using NLP and ML models to analyze tweets, news, and indicators.",
-    tech: ["React", "Redux", "Node.js", "Python", "Bootstrap", "Flask-RESTful"]
+    title: "MITS (Inventory Management System)",
+    image: mits,
+  description:
+    "Built smart inventory control logic for multi-location businesses.",
+    tech: ["React", "Material-UI", "Node.js", "Express.js", "MySQL", "Chart.js", "REST API"],
+    link:""
   },
   {
-    title: "Brilliant Pro",
-    image: mock06,
-    github_link: "https://github.com/Usama-Fiaz/BrilliantPro-CMS",
-    live_link: "https://drive.google.com/file/d/1iwk1Sbp7uJqn8jpRGnVCGlc8kACsPqbL/view?usp=drive_link",
-    description: "An educational platform using MERN stack with real-time dashboards and scalable learning management.",
-    tech: ["React", "Node.js", "JavaScript", "Express", "MongoDB", "Material-UI"]
+    title: "Antly (task management System)",
+    image: antly,
+    description:
+      "A task management system with real-time updates and collaboration features.",
+      tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+      github_link:""
   },
   {
-    title: "Sports Club",
-    image: mock05,
-    github_link: "https://github.com/Usama-Fiaz/Sports-Club",
-    live_link: "https://drive.google.com/file/d/11lHPAuv3JTHwk4GdolXHRJbUxU8PfYXX/view?usp=drive_link",
-    description: "A sports club management system featuring member/event management and ecommerce features.",
-    tech: ["HTML", "JavaScript", "MySQL", "PHP", "Bootstrap"]
+    title: "AiBitrage",
+    image: aib1,
+    description: "A web3-based trading platform that uses AI to analyze market trends and make trading decisions.",
+    tech: ["React", "Material-UI", "web3.js", "API Integration"],
+      github_link:"https://github.com/umaidkhakwani/AI-Bitrage"
   },
   {
-    title: "UnSplash-Clone",
-    image: mock04,
-    github_link: "https://github.com/Usama-Fiaz/UnSplash-Clone",
-    live_link: "https://drive.google.com/file/d/1o8n3XLIjYJKjPrMA3GJyV9BvWm5Bagxt/view?usp=drive_link",
-    description: "A responsive photo gallery app mimicking Unsplash with a modern UI and grid layout.",
-    tech: ["HTML", "CSS", "Bootstrap"]
+    title: "AiBitrage (Version 2)",
+    image: aib2,
+    description: "A web3-based trading platform that uses AI to analyze market trends and make trading decisions.",
+    tech: ["React", "Material-UI", "web3.js", "API Integration"],
+      github_link:"https://github.com/umaidkhakwani/AIbitrage-3.0"
   },
   {
-    title: "FitWorld App",
-    image: mock03,
-    github_link: "https://github.com/Usama-Fiaz/FitWorld-App",
-    live_link: "",
-    description: "A fitness tracking app with personalized plans and progress monitoring.",
-    tech: ["Java", "Material-UI", "Firebase"]
+    title: "Veteran Meet",
+    image: veteran,
+    description: "A platform for veterans to connect with each other and share their experiences.",
+    tech: ["MONGO DB", "EXPRESS JS", "REACT JS", "NODE JS"],
+    github_link:"https://github.com/umaidkhakwani/Veteran-Meet-Mern-Stack"
   }
 ];
 

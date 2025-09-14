@@ -137,7 +137,7 @@ const skills = [
   {
     title: "Back-End",
     icon: faNodeJs,
-    labels: ["Node.js", "Express.js", "Django REST Framework", "GraphQL", "REST APIs", "FastAPI", "Flask API"],
+    labels: ["Node.js", "Express.js", "Python", "GraphQL", "REST APIs", "FastAPI", "Flask API"],
   },
   {
     title: "State Management",
@@ -157,17 +157,17 @@ const skills = [
   {
     title: "Analytics / BI Tools",
     icon: faChartLine,
-    labels: ["Cube.js", "Power BI", "Data Visualization", "Dashboard Development", "KPI Tracking"],
+    labels: [ "Chart.js","Stimulsoft", "Power BI", "Data Visualization", "Dashboard Development"],
   },
   {
     title: "AI Tools / Integrations",
     icon: faBrain,
-    labels: ["Gemini API", "OpenAI", "Chatbot Integration"],
+    labels: ["Gemini API", "OpenAI", "Chatbot Integration", "LangChain", "LangGraph"],
   },
   {
     title: "Security & Auth",
     icon: faShieldAlt,
-    labels: ["JWT", "OAuth","RBAC"],
+    labels: ["JWT", "OAuth", "Firebase Auth"],
   },
   {
     title: "Payment Integration",

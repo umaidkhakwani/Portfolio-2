@@ -7,8 +7,8 @@ function Footer() {
   return (
     <footer>
       <div>
-        <a href="https://github.com/Usama-Fiaz?tab=repositories" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-        <a href="https://www.linkedin.com/in/muhammad-usama-fiaz-b1a070366/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+        <a href="https://github.com/umaidkhakwani" target="_blank" rel="noreferrer"><GitHubIcon/></a>
+        <a href="https://www.linkedin.com/in/umaidkhakwani/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
       </div>
     </footer>
   );
